@@ -310,4 +310,44 @@ export const galleryItems: GalleryItem[] = [
     ratio: "tall",
     tone: "clay",
   },
+  {
+    id: "community-06",
+    category: "Community",
+    title: "Outside the office",
+    caption:
+      "A group stands together outside a government office building.",
+    imageKey: "galleryCommunity06",
+    ratio: "tall",
+    tone: "clay",
+  },
+  {
+    id: "events-05",
+    category: "Events",
+    title: "A team together",
+    caption:
+      "A group poses in a hall with red-and-white patterned walls.",
+    imageKey: "galleryEvents05",
+    ratio: "landscape",
+    tone: "sand",
+  },
+  {
+    id: "welfare-06",
+    category: "Welfare",
+    title: "A bag, received",
+    caption:
+      "A woman hands a bag marked Darpan Welfare Society to a man beside a banner.",
+    imageKey: "galleryWelfare06",
+    ratio: "square",
+    tone: "forest",
+  },
+  {
+    id: "environment-05",
+    category: "Environment",
+    title: "Caring for a garden",
+    caption:
+      "A person tends plants beside a low wall.",
+    imageKey: "galleryEnvironment05",
+    ratio: "portrait",
+    tone: "linen",
+  },
 ];

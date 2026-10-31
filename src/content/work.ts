@@ -6,6 +6,7 @@ export interface FocusArea {
   shortTitle: string;
   description: string;
   imageKey: ImageKey;
+  photoCaption?: string;
   publiclyNoted?: boolean;
 }
 
@@ -22,6 +23,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Supporting access to health awareness, timely care and the everyday conditions that allow people and families to live well.",
     imageKey: "workHealthcare",
+    photoCaption: "A health camp registration desk",
   },
   {
     id: "education",
@@ -30,6 +32,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Creating space for curiosity, learning and the confidence that comes from having the support to continue.",
     imageKey: "workEducation",
+    photoCaption: "A school gathering",
   },
   {
     id: "women-empowerment",
@@ -38,6 +41,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Recognising women's knowledge, choices and leadership as essential to a fair and flourishing community.",
     imageKey: "workWomen",
+    photoCaption: "A women's programme",
   },
   {
     id: "child-welfare",
@@ -46,6 +50,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Putting children's safety, dignity, learning and wellbeing at the centre of the way communities care for the next generation.",
     imageKey: "workChild",
+    photoCaption: "Children planting a sapling",
   },
   {
     id: "elderly-care",
@@ -70,6 +75,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Working with the grain of rural life — strengthening local opportunity, services and the connections that hold a community together.",
     imageKey: "workRural",
+    photoCaption: "An outdoor community gathering",
   },
   {
     id: "environmental-protection",
@@ -78,6 +84,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Caring for the natural systems on which Uttarakhand's communities and future generations depend.",
     imageKey: "workEnvironment",
+    photoCaption: "A Van Mahotsav plantation drive",
   },
   {
     id: "livelihood-development",
@@ -86,6 +93,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Supporting practical skills, employability and the confidence to build an independent and dignified future.",
     imageKey: "workLivelihood",
+    photoCaption: "A Darpan Welfare Society box handed over",
     publiclyNoted: true,
   },
   {
@@ -95,6 +103,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Responding to moments of need with dignity, restraint and a focus on the people most affected.",
     imageKey: "workRelief",
+    photoCaption: "A relief bag handed over",
   },
   {
     id: "community-development",
@@ -103,6 +112,7 @@ export const focusAreas: FocusArea[] = [
     description:
       "Supporting the relationships, participation and shared responsibility that allow communities to shape their own future.",
     imageKey: "workCommunity",
+    photoCaption: "A community meeting",
   },
 ];
 

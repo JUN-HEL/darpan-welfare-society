@@ -341,6 +341,30 @@ export const imageSlots = {
     src: "/images/environment/plantation-team.webp",
     objectPosition: "50% 50%",
   },
+  galleryEnvironment05: {
+    label: "Caring for a garden",
+    alt: "A person in a pink Darpan Welfare Society shirt crouches to tend plants beside a low wall.",
+    src: "/images/environment/garden-care.webp",
+    objectPosition: "50% 45%",
+  },
+  galleryWelfare06: {
+    label: "A bag, received",
+    alt: "A woman in a green sari hands a white bag marked Darpan Welfare Society to a man, while another woman in green stands beside them.",
+    src: "/images/welfare/welfare-bag-handover.webp",
+    objectPosition: "50% 38%",
+  },
+  galleryCommunity06: {
+    label: "Outside the office",
+    alt: "A group of people stands outside a government office building.",
+    src: "/images/community/team-outside-wide.webp",
+    objectPosition: "50% 58%",
+  },
+  galleryEvents05: {
+    label: "A team together",
+    alt: "A group of people, several wearing identification lanyards, pose in a hall with red-and-white patterned walls.",
+    src: "/images/community/community-indoors.webp",
+    objectPosition: "50% 45%",
+  },
 } satisfies Record<string, ImageSlot>;
 
 export type ImageKey = keyof typeof imageSlots;

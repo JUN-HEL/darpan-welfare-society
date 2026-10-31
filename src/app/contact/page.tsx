@@ -192,10 +192,10 @@ export default function ContactPage() {
                 sizes="(max-width: 900px) 100vw, 44vw"
                 caption={
                   <span>
-                    A welcome, waiting to be filled with a photograph
+                    The Darpan team
                     <br />
                     <span className="caption-muted">
-                      Authorised image to be supplied
+                      Outside the office
                     </span>
                   </span>
                 }

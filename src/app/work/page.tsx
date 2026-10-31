@@ -61,9 +61,11 @@ function AreaEntry({
             sizes={compact ? "(max-width: 900px) 100vw, 30vw" : "(max-width: 900px) 100vw, 48vw"}
             caption={
               <span>
-                {area.title}
+                {area.photoCaption ?? area.title}
                 <br />
-                <span className="caption-muted">Photograph to be supplied</span>
+                <span className="caption-muted">
+                  {area.photoCaption ? "Darpan Welfare Society" : "Photography pending"}
+                </span>
               </span>
             }
             captionAside={
@@ -130,9 +132,9 @@ export default function WorkPage() {
             <span className="micro-label">How to read this page</span>
             <p>
               The categories below are areas of focus. They are not a claim
-              that every area is an active or completed programme. Programme
-              details and photography will be added only when verified and
-              authorised.
+              that every area is an active or completed programme. The
+              photographs are drawn from Darpan&apos;s public work, and their
+              captions describe only what is visible in the frame.
             </p>
           </div>
         }
@@ -149,15 +151,15 @@ export default function WorkPage() {
             variant="corner"
             caption={
               <span>
-                Darpan&apos;s work in the field
+                An eye camp in progress
                 <br />
                 <span className="caption-muted">
-                  Authorised photography to be supplied
+                  A wider view / Eye camp
                 </span>
               </span>
             }
             captionAside={
-              <span className="micro-label">A wider view / 11 areas</span>
+              <span className="micro-label">A wider view / Eye camp</span>
             }
           />
         </Reveal>
@@ -201,9 +203,9 @@ export default function WorkPage() {
                 sizes="(max-width: 900px) 100vw, 54vw"
                 caption={
                   <span>
-                    Livelihood development
+                    A Darpan Welfare Society box
                     <br />
-                    <span className="caption-muted">Photograph to be supplied</span>
+                    <span className="caption-muted">Community visit</span>
                   </span>
                 }
                 captionAside={<span className="micro-label">01 / 11</span>}
